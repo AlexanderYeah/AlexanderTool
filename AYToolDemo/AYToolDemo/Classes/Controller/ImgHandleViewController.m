@@ -9,6 +9,7 @@
 #import "ImgHandleViewController.h"
 #import "UIImage+ClipImage.h"
 #import "UIImage+Mark.h"
+#import "UIImage+Color.h"
 @interface ImgHandleViewController ()
 
 @end
@@ -23,6 +24,8 @@
 	[self clipImg];
 	
 	[self markImg];
+	
+	[self addColor];
 	
 	
 }
@@ -44,7 +47,15 @@
 	
 }
 
+/* 3 添加颜色 一般用来给二维码添加颜色 **/
+- (void)addColor{
+	UIImageView *headImgView = [[UIImageView alloc]initWithFrame:CGRectMake(20, 280, 120, 120)];
 
+	headImgView.image =  [SKImage(@"1499154906") imageWithColor:[UIColor cyanColor]];
+	[self.view addSubview:headImgView];
+
+
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

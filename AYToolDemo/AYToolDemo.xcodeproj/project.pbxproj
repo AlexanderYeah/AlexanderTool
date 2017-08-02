@@ -11,6 +11,7 @@
 		03006EC61F316C2E002F4384 /* ImgHandleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03006EC51F316C2E002F4384 /* ImgHandleViewController.m */; };
 		03006EC91F316D2D002F4384 /* UIImage+ClipImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 03006EC81F316D2D002F4384 /* UIImage+ClipImage.m */; };
 		03006ECC1F31723A002F4384 /* UIImage+Mark.m in Sources */ = {isa = PBXBuildFile; fileRef = 03006ECB1F31723A002F4384 /* UIImage+Mark.m */; };
+		03006ED81F31C08C002F4384 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 03006ED71F31C08C002F4384 /* UIImage+Color.m */; };
 		03748B701F301D4D00831188 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03748B6F1F301D4D00831188 /* main.m */; };
 		03748B731F301D4D00831188 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03748B721F301D4D00831188 /* AppDelegate.m */; };
 		03748B761F301D4D00831188 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03748B751F301D4D00831188 /* ViewController.m */; };
@@ -56,6 +57,8 @@
 		03006EC81F316D2D002F4384 /* UIImage+ClipImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ClipImage.m"; sourceTree = "<group>"; };
 		03006ECA1F31723A002F4384 /* UIImage+Mark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Mark.h"; sourceTree = "<group>"; };
 		03006ECB1F31723A002F4384 /* UIImage+Mark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Mark.m"; sourceTree = "<group>"; };
+		03006ED61F31C08C002F4384 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		03006ED71F31C08C002F4384 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		03748B6B1F301D4D00831188 /* AYToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03748B6F1F301D4D00831188 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03748B711F301D4D00831188 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -166,6 +169,8 @@
 				03006EC81F316D2D002F4384 /* UIImage+ClipImage.m */,
 				03006ECA1F31723A002F4384 /* UIImage+Mark.h */,
 				03006ECB1F31723A002F4384 /* UIImage+Mark.m */,
+				03006ED61F31C08C002F4384 /* UIImage+Color.h */,
+				03006ED71F31C08C002F4384 /* UIImage+Color.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -417,6 +422,7 @@
 				03748BC21F301F7500831188 /* MASViewAttribute.m in Sources */,
 				03748BBF1F301F7500831188 /* MASConstraint.m in Sources */,
 				03006EC21F316BE3002F4384 /* StarsViewController.m in Sources */,
+				03006ED81F31C08C002F4384 /* UIImage+Color.m in Sources */,
 				03006EC61F316C2E002F4384 /* ImgHandleViewController.m in Sources */,
 				03748BC01F301F7500831188 /* MASConstraintMaker.m in Sources */,
 			);
