@@ -19,5 +19,6 @@
 
 #define kScreenW [UIScreen mainScreen].bounds.size.width
 #define kScreenH [UIScreen mainScreen].bounds.size.height
-
+/** 设置图片 */
+#define SKImage(name) [UIImage imageNamed:name]
 #endif /* tool_pch */

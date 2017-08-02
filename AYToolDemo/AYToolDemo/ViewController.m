@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "StarsViewController.h"
+#import "ImgHandleViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 /** 数据源数组 */
 @property (nonatomic,strong)NSMutableArray *dataArr;
@@ -23,7 +24,7 @@
 {
 	if (!_dataArr) {
 		
-		NSArray *arr = @[@"点评星星"];
+		NSArray *arr = @[@"点评星星",@"图片处理"];
 		_dataArr = [NSMutableArray arrayWithCapacity:0];
 		[_dataArr addObjectsFromArray:arr];
 	}
@@ -32,7 +33,7 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-	
+	self.navigationItem.title = @"Demo";
 	[self createUI];
 }
 
@@ -41,7 +42,7 @@
 - (void)createUI{
 
 	
-	_mainTableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 64, kScreenW, kScreenH - 64) style:UITableViewStylePlain];
+	_mainTableView = [[UITableView alloc]initWithFrame:CGRectMake(0,0, kScreenW, kScreenH - 64) style:UITableViewStylePlain];
 	
 	_mainTableView.delegate = self;
 	_mainTableView.dataSource = self;
@@ -68,6 +69,29 @@
     }
 	cell.textLabel.text  = self.dataArr[indexPath.row];
     return cell;
+
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	switch (indexPath.row) {
+  case 0:
+    {
+		StarsViewController *starVC = [[StarsViewController alloc]init];
+		starVC.view.backgroundColor = [UIColor whiteColor];
+		[self.navigationController pushViewController:starVC animated:YES];
+	}
+    break;
+	case 1:{
+		ImgHandleViewController *imgVC = [[ImgHandleViewController alloc]init];
+		imgVC.view.backgroundColor = [UIColor whiteColor];
+		imgVC.navigationItem.title = @"图片处理";
+		[self.navigationController pushViewController:imgVC animated:YES];
+	}break;
+
+  default:
+    break;
+}
 
 }
 

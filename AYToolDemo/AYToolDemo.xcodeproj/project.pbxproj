@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03006EC21F316BE3002F4384 /* StarsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03006EC11F316BE3002F4384 /* StarsViewController.m */; };
+		03006EC61F316C2E002F4384 /* ImgHandleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03006EC51F316C2E002F4384 /* ImgHandleViewController.m */; };
+		03006EC91F316D2D002F4384 /* UIImage+ClipImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 03006EC81F316D2D002F4384 /* UIImage+ClipImage.m */; };
+		03006ECC1F31723A002F4384 /* UIImage+Mark.m in Sources */ = {isa = PBXBuildFile; fileRef = 03006ECB1F31723A002F4384 /* UIImage+Mark.m */; };
 		03748B701F301D4D00831188 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03748B6F1F301D4D00831188 /* main.m */; };
 		03748B731F301D4D00831188 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03748B721F301D4D00831188 /* AppDelegate.m */; };
 		03748B761F301D4D00831188 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03748B751F301D4D00831188 /* ViewController.m */; };
-		03748B791F301D4D00831188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03748B771F301D4D00831188 /* Main.storyboard */; };
 		03748B7B1F301D4E00831188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03748B7A1F301D4E00831188 /* Assets.xcassets */; };
 		03748B7E1F301D4E00831188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03748B7C1F301D4E00831188 /* LaunchScreen.storyboard */; };
 		03748B891F301D5100831188 /* AYToolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03748B881F301D5100831188 /* AYToolDemoTests.m */; };
@@ -45,13 +48,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03006EC01F316BE3002F4384 /* StarsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarsViewController.h; sourceTree = "<group>"; };
+		03006EC11F316BE3002F4384 /* StarsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarsViewController.m; sourceTree = "<group>"; };
+		03006EC41F316C2E002F4384 /* ImgHandleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImgHandleViewController.h; sourceTree = "<group>"; };
+		03006EC51F316C2E002F4384 /* ImgHandleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImgHandleViewController.m; sourceTree = "<group>"; };
+		03006EC71F316D2D002F4384 /* UIImage+ClipImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ClipImage.h"; sourceTree = "<group>"; };
+		03006EC81F316D2D002F4384 /* UIImage+ClipImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ClipImage.m"; sourceTree = "<group>"; };
+		03006ECA1F31723A002F4384 /* UIImage+Mark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Mark.h"; sourceTree = "<group>"; };
+		03006ECB1F31723A002F4384 /* UIImage+Mark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Mark.m"; sourceTree = "<group>"; };
 		03748B6B1F301D4D00831188 /* AYToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03748B6F1F301D4D00831188 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03748B711F301D4D00831188 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		03748B721F301D4D00831188 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		03748B741F301D4D00831188 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		03748B751F301D4D00831188 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		03748B781F301D4D00831188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03748B7A1F301D4E00831188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03748B7D1F301D4E00831188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03748B7F1F301D4E00831188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -114,6 +124,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03006EBC1F316B88002F4384 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				03006EBD1F316B88002F4384 /* Controller */,
+				03006EBE1F316B88002F4384 /* Model */,
+				03006EBF1F316B88002F4384 /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		03006EBD1F316B88002F4384 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				03006EC01F316BE3002F4384 /* StarsViewController.h */,
+				03006EC11F316BE3002F4384 /* StarsViewController.m */,
+				03006EC41F316C2E002F4384 /* ImgHandleViewController.h */,
+				03006EC51F316C2E002F4384 /* ImgHandleViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		03006EBE1F316B88002F4384 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		03006EBF1F316B88002F4384 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		03006EC31F316BF5002F4384 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				03006EC71F316D2D002F4384 /* UIImage+ClipImage.h */,
+				03006EC81F316D2D002F4384 /* UIImage+ClipImage.m */,
+				03006ECA1F31723A002F4384 /* UIImage+Mark.h */,
+				03006ECB1F31723A002F4384 /* UIImage+Mark.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		03748B621F301D4C00831188 = {
 			isa = PBXGroup;
 			children = (
@@ -137,13 +193,14 @@
 		03748B6D1F301D4D00831188 /* AYToolDemo */ = {
 			isa = PBXGroup;
 			children = (
-				03748BA21F301F7500831188 /* Masonry */,
+				03006EC31F316BF5002F4384 /* Tool */,
+				03006EBC1F316B88002F4384 /* Classes */,
 				03748B711F301D4D00831188 /* AppDelegate.h */,
 				03748B721F301D4D00831188 /* AppDelegate.m */,
 				03748B741F301D4D00831188 /* ViewController.h */,
 				03748B751F301D4D00831188 /* ViewController.m */,
+				03748BA21F301F7500831188 /* Masonry */,
 				03748BA11F301F1D00831188 /* tool.pch */,
-				03748B771F301D4D00831188 /* Main.storyboard */,
 				03748B7A1F301D4E00831188 /* Assets.xcassets */,
 				03748B7C1F301D4E00831188 /* LaunchScreen.storyboard */,
 				03748B7F1F301D4E00831188 /* Info.plist */,
@@ -321,7 +378,6 @@
 			files = (
 				03748B7E1F301D4E00831188 /* LaunchScreen.storyboard in Resources */,
 				03748B7B1F301D4E00831188 /* Assets.xcassets in Resources */,
-				03748B791F301D4D00831188 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,13 +407,17 @@
 				03748BBE1F301F7500831188 /* MASCompositeConstraint.m in Sources */,
 				03748BC41F301F7500831188 /* NSArray+MASAdditions.m in Sources */,
 				03748B761F301D4D00831188 /* ViewController.m in Sources */,
+				03006EC91F316D2D002F4384 /* UIImage+ClipImage.m in Sources */,
 				03748B731F301D4D00831188 /* AppDelegate.m in Sources */,
 				03748BC11F301F7500831188 /* MASLayoutConstraint.m in Sources */,
 				03748B701F301D4D00831188 /* main.m in Sources */,
 				03748BC71F301F7500831188 /* ViewController+MASAdditions.m in Sources */,
+				03006ECC1F31723A002F4384 /* UIImage+Mark.m in Sources */,
 				03748BC61F301F7500831188 /* View+MASAdditions.m in Sources */,
 				03748BC21F301F7500831188 /* MASViewAttribute.m in Sources */,
 				03748BBF1F301F7500831188 /* MASConstraint.m in Sources */,
+				03006EC21F316BE3002F4384 /* StarsViewController.m in Sources */,
+				03006EC61F316C2E002F4384 /* ImgHandleViewController.m in Sources */,
 				03748BC01F301F7500831188 /* MASConstraintMaker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,14 +454,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		03748B771F301D4D00831188 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03748B781F301D4D00831188 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		03748B7C1F301D4E00831188 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -511,7 +563,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AYToolDemo/tool.pch";
 				INFOPLIST_FILE = AYToolDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.AYToolDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = alexander.navDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -524,7 +576,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AYToolDemo/tool.pch";
 				INFOPLIST_FILE = AYToolDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AlexanderYeah.AYToolDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = alexander.navDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -598,6 +650,7 @@
 				03748B9A1F301D5400831188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03748B9B1F301D5400831188 /* Build configuration list for PBXNativeTarget "AYToolDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -606,6 +659,7 @@
 				03748B9D1F301D5400831188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03748B9E1F301D5400831188 /* Build configuration list for PBXNativeTarget "AYToolDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -614,6 +668,7 @@
 				03748BA01F301D5400831188 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
