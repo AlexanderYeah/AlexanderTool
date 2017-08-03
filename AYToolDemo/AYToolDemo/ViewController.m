@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "StarsViewController.h"
 #import "ImgHandleViewController.h"
+#import "VerifyCodeViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 /** 数据源数组 */
 @property (nonatomic,strong)NSMutableArray *dataArr;
@@ -24,7 +25,7 @@
 {
 	if (!_dataArr) {
 		
-		NSArray *arr = @[@"点评星星",@"图片处理"];
+		NSArray *arr = @[@"点评星星",@"图片处理",@"发送验证码"];
 		_dataArr = [NSMutableArray arrayWithCapacity:0];
 		[_dataArr addObjectsFromArray:arr];
 	}
@@ -87,6 +88,13 @@
 		imgVC.view.backgroundColor = [UIColor whiteColor];
 		imgVC.navigationItem.title = @"图片处理";
 		[self.navigationController pushViewController:imgVC animated:YES];
+	}break;
+	case 2:{
+		VerifyCodeViewController *verifyVC = [[VerifyCodeViewController alloc]init];
+				verifyVC.view.backgroundColor = [UIColor whiteColor];
+		verifyVC.navigationItem.title = @"发送验证码";
+		[self.navigationController pushViewController:verifyVC animated:YES];
+
 	}break;
 
   default:

@@ -12,6 +12,7 @@
 		03006EC91F316D2D002F4384 /* UIImage+ClipImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 03006EC81F316D2D002F4384 /* UIImage+ClipImage.m */; };
 		03006ECC1F31723A002F4384 /* UIImage+Mark.m in Sources */ = {isa = PBXBuildFile; fileRef = 03006ECB1F31723A002F4384 /* UIImage+Mark.m */; };
 		03006ED81F31C08C002F4384 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 03006ED71F31C08C002F4384 /* UIImage+Color.m */; };
+		0328CA9A1F32B9A40049FD73 /* VerifyCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0328CA991F32B9A40049FD73 /* VerifyCodeViewController.m */; };
 		03748B701F301D4D00831188 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03748B6F1F301D4D00831188 /* main.m */; };
 		03748B731F301D4D00831188 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03748B721F301D4D00831188 /* AppDelegate.m */; };
 		03748B761F301D4D00831188 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03748B751F301D4D00831188 /* ViewController.m */; };
@@ -59,6 +60,8 @@
 		03006ECB1F31723A002F4384 /* UIImage+Mark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Mark.m"; sourceTree = "<group>"; };
 		03006ED61F31C08C002F4384 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		03006ED71F31C08C002F4384 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		0328CA981F32B9A40049FD73 /* VerifyCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyCodeViewController.h; sourceTree = "<group>"; };
+		0328CA991F32B9A40049FD73 /* VerifyCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyCodeViewController.m; sourceTree = "<group>"; };
 		03748B6B1F301D4D00831188 /* AYToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AYToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03748B6F1F301D4D00831188 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03748B711F301D4D00831188 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -144,6 +147,8 @@
 				03006EC11F316BE3002F4384 /* StarsViewController.m */,
 				03006EC41F316C2E002F4384 /* ImgHandleViewController.h */,
 				03006EC51F316C2E002F4384 /* ImgHandleViewController.m */,
+				0328CA981F32B9A40049FD73 /* VerifyCodeViewController.h */,
+				0328CA991F32B9A40049FD73 /* VerifyCodeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -417,6 +422,7 @@
 				03748BC11F301F7500831188 /* MASLayoutConstraint.m in Sources */,
 				03748B701F301D4D00831188 /* main.m in Sources */,
 				03748BC71F301F7500831188 /* ViewController+MASAdditions.m in Sources */,
+				0328CA9A1F32B9A40049FD73 /* VerifyCodeViewController.m in Sources */,
 				03006ECC1F31723A002F4384 /* UIImage+Mark.m in Sources */,
 				03748BC61F301F7500831188 /* View+MASAdditions.m in Sources */,
 				03748BC21F301F7500831188 /* MASViewAttribute.m in Sources */,
