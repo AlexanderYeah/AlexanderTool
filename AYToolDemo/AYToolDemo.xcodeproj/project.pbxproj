@@ -30,6 +30,10 @@
 		03748BC51F301F7500831188 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03748BB71F301F7500831188 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		03748BC61F301F7500831188 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03748BB91F301F7500831188 /* View+MASAdditions.m */; };
 		03748BC71F301F7500831188 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 03748BBC1F301F7500831188 /* ViewController+MASAdditions.m */; };
+		119B8A521FE7F761006E47F9 /* GetCityCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 119B8A501FE7F761006E47F9 /* GetCityCodeViewController.m */; };
+		119B8A531FE7F761006E47F9 /* GetCityCodeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 119B8A511FE7F761006E47F9 /* GetCityCodeViewController.xib */; };
+		119B8A571FE7F853006E47F9 /* province_code.json in Resources */ = {isa = PBXBuildFile; fileRef = 119B8A541FE7F853006E47F9 /* province_code.json */; };
+		119B8A581FE7F853006E47F9 /* SKTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 119B8A561FE7F853006E47F9 /* SKTool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +107,12 @@
 		03748BBA1F301F7500831188 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		03748BBB1F301F7500831188 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		03748BBC1F301F7500831188 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		119B8A4F1FE7F761006E47F9 /* GetCityCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetCityCodeViewController.h; sourceTree = "<group>"; };
+		119B8A501FE7F761006E47F9 /* GetCityCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetCityCodeViewController.m; sourceTree = "<group>"; };
+		119B8A511FE7F761006E47F9 /* GetCityCodeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GetCityCodeViewController.xib; sourceTree = "<group>"; };
+		119B8A541FE7F853006E47F9 /* province_code.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = province_code.json; sourceTree = "<group>"; };
+		119B8A551FE7F853006E47F9 /* SKTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKTool.h; sourceTree = "<group>"; };
+		119B8A561FE7F853006E47F9 /* SKTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKTool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +159,9 @@
 				03006EC51F316C2E002F4384 /* ImgHandleViewController.m */,
 				0328CA981F32B9A40049FD73 /* VerifyCodeViewController.h */,
 				0328CA991F32B9A40049FD73 /* VerifyCodeViewController.m */,
+				119B8A4F1FE7F761006E47F9 /* GetCityCodeViewController.h */,
+				119B8A501FE7F761006E47F9 /* GetCityCodeViewController.m */,
+				119B8A511FE7F761006E47F9 /* GetCityCodeViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -170,6 +183,9 @@
 		03006EC31F316BF5002F4384 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				119B8A541FE7F853006E47F9 /* province_code.json */,
+				119B8A551FE7F853006E47F9 /* SKTool.h */,
+				119B8A561FE7F853006E47F9 /* SKTool.m */,
 				03006EC71F316D2D002F4384 /* UIImage+ClipImage.h */,
 				03006EC81F316D2D002F4384 /* UIImage+ClipImage.m */,
 				03006ECA1F31723A002F4384 /* UIImage+Mark.h */,
@@ -386,7 +402,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				119B8A531FE7F761006E47F9 /* GetCityCodeViewController.xib in Resources */,
 				03748B7E1F301D4E00831188 /* LaunchScreen.storyboard in Resources */,
+				119B8A571FE7F853006E47F9 /* province_code.json in Resources */,
 				03748B7B1F301D4E00831188 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +447,8 @@
 				03748BBF1F301F7500831188 /* MASConstraint.m in Sources */,
 				03006EC21F316BE3002F4384 /* StarsViewController.m in Sources */,
 				03006ED81F31C08C002F4384 /* UIImage+Color.m in Sources */,
+				119B8A581FE7F853006E47F9 /* SKTool.m in Sources */,
+				119B8A521FE7F761006E47F9 /* GetCityCodeViewController.m in Sources */,
 				03006EC61F316C2E002F4384 /* ImgHandleViewController.m in Sources */,
 				03748BC01F301F7500831188 /* MASConstraintMaker.m in Sources */,
 			);

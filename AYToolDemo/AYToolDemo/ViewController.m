@@ -10,6 +10,7 @@
 #import "StarsViewController.h"
 #import "ImgHandleViewController.h"
 #import "VerifyCodeViewController.h"
+#import "GetCityCodeViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 /** 数据源数组 */
 @property (nonatomic,strong)NSMutableArray *dataArr;
@@ -25,7 +26,7 @@
 {
 	if (!_dataArr) {
 		
-		NSArray *arr = @[@"点评星星",@"图片处理",@"发送验证码"];
+		NSArray *arr = @[@"点评星星",@"图片处理",@"发送验证码",@"获取省份城市对应编码"];
 		_dataArr = [NSMutableArray arrayWithCapacity:0];
 		[_dataArr addObjectsFromArray:arr];
 	}
@@ -94,6 +95,13 @@
 				verifyVC.view.backgroundColor = [UIColor whiteColor];
 		verifyVC.navigationItem.title = @"发送验证码";
 		[self.navigationController pushViewController:verifyVC animated:YES];
+
+	}break;
+	case 3:{
+		GetCityCodeViewController *codeVC = [[GetCityCodeViewController alloc]init];
+				codeVC.view.backgroundColor = [UIColor whiteColor];
+		codeVC.navigationItem.title = @"城市编码";
+		[self.navigationController pushViewController:codeVC animated:YES];
 
 	}break;
 
